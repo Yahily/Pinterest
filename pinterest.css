@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border-radius: 8%;
+    font-size: 15px;
+}
+
+#navbar-pinterest {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    color: black;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    border-radius: 0;
+    z-index: 999;
+
+}
+
+.Logo {
+    align-items: center;
+    margin-top: 9px;
+}
+
+.Navegador {
+    padding-top: 20px;
+    padding: 10px 15px;
+    border-radius: 35px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    overflow: hidden;
+    display: inline-block;
+    background-color: white
+    
+}
+
+.Navegador:hover {
+    cursor: pointer;
+    color: aliceblue;
+    background-color: black;
+    transition: 0.3s;
+}
+
+#Notificaciones {
+    padding-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 10px 15px;
+    border-radius: 35px;
+
+}
+
+#Notificaciones:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.Finder {
+    width: 800px;
+    border: none;
+    height: 50px;
+    font-family: sans-serif;
+    border-radius: 25px;
+    background-color: gainsboro;
+}
+
+.buscador .lupa {
+    position: relative;
+    top: -4px;
+    right: -11px;
+    transform: translateY(-170%);
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+    background-color: none;
+}
+
+.Finder :hover {
+    background-color: blanchedalmond;
+    transition: 0.3s;
+}
+
+#Message {
+    padding-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+#Message:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+#Usuario {
+    padding-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+#Usuario:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+#Select {
+    padding-top: 10px;
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+}
+
+#Select:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+    transition: 0.3s;
+
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 100px;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.card-image {
+    position: relative;
+}
+
+.oculto {
+    opacity: 0;
+}
+
+.card-image:hover .oculto {
+    opacity: 1;
+}
+
+.boton0 {
+    position: absolute;
+    padding: 10px 15px;
+    background-color: red;
+    border-radius: 35px;
+    top: 15px;
+    right: 15px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.boton0:hover {
+    cursor: pointer;
+}
+
+.boton1 {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.boton1:hover {
+    cursor: pointer;
+}
+
+.boton2 {
+    position: absolute;
+    bottom: 30px;
+    left: 155px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.boton2:hover {
+    cursor: pointer;
+}
+
+.card-image:hover {
+    opacity: 75%;
+    cursor: zoom-in;
+}
